@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todo-app {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.filter{
+  margin: 20px;
+}
+
+.filter .active{
+  background-color: #000;
+  color: #fff;
+}
+
+input{
+  padding: 10px;
+  font-size: 13px;
+  width: 300px;
+}
+
+button{
+  padding: 10px;
+  font-size: 13px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
+
